@@ -25,7 +25,9 @@ class Document extends NextDocument<Props> {
           />
         </Head>
         <body>
-          <Main />
+          <main>
+            <Main />
+          </main>
           <NextScript />
         </body>
       </Html>
