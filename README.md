@@ -75,8 +75,8 @@ The app should now be up and running at http://localhost:3000 🚀
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/advice-generator-app-mMlTQc6c0w)
+- Live Site URL: [here](https://advice-generator-app-woad.vercel.app/)
 
 ## My process
 
