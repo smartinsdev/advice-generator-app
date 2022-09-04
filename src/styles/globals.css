@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen flex justify-center items-center max-w-7xl mx-auto px-4 bg-dark-blue;
+  }
+}
+
+@layer components {
+  #__next {
+    @apply p-7 relative bg-dark-grayish text-center shadow-2xl rounded-lg flex flex-col gap-5 max-w-lg;
+  }
+
+  .wrapper-bar {
+    @apply w-10 h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-dark-grayish flex items-center justify-evenly;
+  }
+  .btn {
+    @apply h-14 w-14 rounded-full flex items-center justify-center bg-neon-green absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 transition-shadow duration-300;
+  }
+  .btn:hover {
+    @apply shadow-neon;
+  }
+  .btn:active {
+    @apply shadow-none;
+  }
+}
